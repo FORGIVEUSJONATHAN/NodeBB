@@ -9,6 +9,8 @@ const user = require('../user');
 const plugins = require('../plugins');
 const categories = require('../categories');
 const utils = require('../utils');
+const groups = require('../groups');
+groups.
 
 module.exports = function (Posts) {
     Posts.getPostSummaryByPids = async function (pids, uid, options) {
